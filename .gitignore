@@ -1,3 +1,4 @@
 *.npy
 id_rsa
 id_rsa.pub
+bin/__pycache__
