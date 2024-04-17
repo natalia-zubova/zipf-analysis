@@ -16,6 +16,7 @@ def main(args):
                         grid=True,
                         xlim=args.xlim)
     plt.savefig(args.outfile)
+    plt.close(plt.gcf())
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=(
