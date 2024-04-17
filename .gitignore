@@ -3,3 +3,5 @@ id_rsa
 id_rsa.pub
 bin/__pycache__
 .DS_Store
+data/*
+results/*
